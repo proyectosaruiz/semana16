@@ -1,4 +1,3 @@
-# Estilos
+# Modificar estado: más formularios
 
-1. En el componente principal que se crea con CRA (App.js) borra todo el contenido y crea un único `<h1>` que cada vez que cargue la página tenga un color de fondo aleatorio diferente.
-2. Crea un `<p>` con la clase `.importante`. Define esa clase en un archivo CSS externo.
+Partiendo del estado final del ejercicio anterior añade a cada uno de los `<li>` un checkbox (`<input type="checkbox">`) que al hacer click modifique la propiedad `done` del elemento correspondiente del estado de `App.js`.
