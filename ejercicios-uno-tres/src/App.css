@@ -1,0 +1,10 @@
+.App {
+  display: grid;
+  place-content: center;
+  place-items: center;
+  min-height: 100vh;
+}
+
+.importante {
+  font-style: italic;
+}

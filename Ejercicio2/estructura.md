@@ -1,0 +1,23 @@
+- Post
+  - PostHeader
+    - Image
+    - Text
+    - Link
+    - Button
+  - Image
+  - List
+    - Comment
+      - Image
+      - Text
+      - Text
+      - Text
+      - CommentDate
+  - PostFooter
+    - List
+      - Button
+    - PostLikes
+    - PostDate
+    - CommentForm
+      - Button
+      - Input
+      - Input

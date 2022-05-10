@@ -1,8 +1,13 @@
-# Side effects
+# Componentes, props y children
 
-Partiendo del estado final del ejercicio anterior haz que el estado de `App` se guarde en el `localStorage` de forma que aunque recarges la página el estado persista.
+Usando los datos del [archivo json adjunto](users.json) que contiene información de 5 personas ficticias crea una aplicación de React que muestre una ficha de cada persona con la siguiente estructura de componentes:
 
-Para hacer esto debes hacer que:
+- UserList
+  - User
+    - UserPicture
+    - UserName
+    - UserLocation
 
-- cuando se carge la aplicación mire si hay un estado guardado en el `localStorage` y use ese estado como inicial.
-- cada vez que el estado se modifique porque se añade o modifica un elemento debe guardar el estado en el `localStorage`. Para hacer esto debes usar `useEffect`.
+El componente de cada una de las personas debe tener un indicador si esa persona es menor de edad (mirar el campo "dob" del JSON).
+
+NOTA: el JSON contiene muchos datos de cada persona que no es necesario usar para este ejercicio. Usa solo los que necesites.

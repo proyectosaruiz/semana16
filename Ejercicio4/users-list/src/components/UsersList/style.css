@@ -1,0 +1,14 @@
+ul.usersList {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  width: 70%;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ul > li {
+  flex-basis: 0;
+  flex-grow: 1;
+}
